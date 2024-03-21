@@ -27,6 +27,8 @@ stages:
   'Confirm':
     manualConfirmation: false
 
+    
+
 #  Integration:
 #    credentials:
 #      - alias: 'mySystemAlias'
