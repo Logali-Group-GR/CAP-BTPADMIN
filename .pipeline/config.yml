@@ -26,9 +26,11 @@ steps:
 stages:
   'Confirm':
     manualConfirmation: false
-
+    tmsUpload: true
     
-
+tmsUpload:
+nodeName: "TMS-QAS"
+credentialId: "tms-sk"
 #  Integration:
 #    credentials:
 #      - alias: 'mySystemAlias'
@@ -36,9 +38,10 @@ stages:
 
 #  Release:
 #    cfTargets:
-#      - org: 'myOrg'
-#        space: 'mySpace'
-#        apiEndpoint: 'https://'
-#        appName: 'myAppName'
+#      - org: '1689ae17trial'
+#        space: 'dev'
+#        apiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com/'
+#         appName: 'CAP'
 #        manifest: 'manifest.yml'
 #        credentialsId: 'myDeploymentCredentialsId'
+#        tmsUpload: true
